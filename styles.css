@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    padding: 20px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(180, 100%, 80%);
+}
+
+#calculadora{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(0, 0%, 30%);
+    border-radius: 15px;
+    overflow: clip;
+    box-shadow: 10px 10px 25px black;
+}
+
+#pantalla{
+    width: 100%;
+    padding: 20px;
+    font-size: 3rem;
+    border-radius: 15px;
+    text-align: left;
+    border: none;
+    background-color: hsl(0, 0%, 66%);
+    color: white;
+}
+
+#botones{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 25px;
+    gap: 10px;
+}
+
+button{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    font-size:  2.5rem;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.747);
+    background-color: rgba(0, 0, 0, 0.808);
+    cursor: pointer;
+    border: none;
+    box-shadow: 10px 10px 10px black;
+}
+
+button:hover{
+    background-color: hsla(0, 0%, 35%, 0.808);
+    
+}
+button:active{
+    background-color: hsla(0, 0%, 50%, 0.808);
+}
+
+.btn-operador{
+    background-color: hsl(27, 100%, 47%);
+}
+.btn-operador:hover{
+    background-color: hsl(27, 100%, 60%);
+}
+.btn-operador:active{
+    background-color: hsl(27, 100%, 40%);
+}
+
+.btn-on{
+    background-color: hsl(0, 66%, 47%);
+}
+.btn-on:hover{
+    background-color: hsl(0, 66%, 57%);
+}
+.btn-on:active{
+    background-color: hsl(0, 66%, 40%);
+}
+
+.btn-limpiar{
+    background-color: hsl(120, 36%, 47%);
+}
+.btn-limpiar:hover{
+    background-color: hsl(120, 36%, 57%);
+}
+.btn-limpiar:active{
+    background-color: hsl(120, 36%, 40%);
+}
+
+.btn-calc{
+    background-color: hsl(240, 51%, 47%);
+}
+.btn-calc:hover{
+    background-color: hsl(240, 51%, 57%);
+}
+.btn-calc:active{
+    background-color: hsl(240, 51%, 37%);
+}

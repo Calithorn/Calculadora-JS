@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Mi Calculadora JS</h1>
+    </header>
+<div id="calculadora">
+    <input id="pantalla" readonly>
+    <div id="botones">
+        <button onclick="enviarPantalla('Bienvenid@')" class="btn-on">On</button>
+        <button onclick="limpiarPantalla()" class="btn-limpiar">C</button>
+        <button onclick="enviarPantalla('%')" class="btn-operador">%</button>
+        <button onclick="enviarPantalla('/')" class="btn-operador">/</button>
+        <button onclick="enviarPantalla('7')">7</button>
+        <button onclick="enviarPantalla('8')">8</button>
+        <button onclick="enviarPantalla('9')">9</button>
+        <button onclick="enviarPantalla('*')" class="btn-operador">*</button>
+        <button onclick="enviarPantalla('4')">4</button>
+        <button onclick="enviarPantalla('5')">5</button>
+        <button onclick="enviarPantalla('6')">6</button>
+        <button onclick="enviarPantalla('-')" class="btn-operador">-</button>
+        <button onclick="enviarPantalla('1')">1</button>
+        <button onclick="enviarPantalla('2')">2</button>
+        <button onclick="enviarPantalla('3')">3</button>
+        <button onclick="enviarPantalla('+')" class="btn-operador">+</button>
+        <button onclick="enviarPantalla('&')">&</button>
+        <button onclick="enviarPantalla('0')">0</button>
+        <button onclick="enviarPantalla('.')">.</button>
+        <button onclick="calcular()" class="btn-calc">=</button>
+        
+    </div>
+</div>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
